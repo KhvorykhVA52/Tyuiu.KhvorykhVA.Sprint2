@@ -1,5 +1,4 @@
 ﻿using Tyuiu.KhvorykhVA.Sprint2.Task1.V16.Lib;
-
 namespace Tyuiu.KhvorykhVA.Sprint2.Task1.V16
 {
     class Program
