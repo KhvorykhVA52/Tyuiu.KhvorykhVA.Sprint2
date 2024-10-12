@@ -23,9 +23,9 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task5.V2.Test
             Assert.AreEqual("Лето", ds.FindMonthSeason(7));
             Assert.AreEqual("Лето", ds.FindMonthSeason(8));
 
-            Assert.AreEqual("Осень", ds.FindMonthSeason(9));
-            Assert.AreEqual("Осень", ds.FindMonthSeason(10));
-            Assert.AreEqual("Осень", ds.FindMonthSeason(11));
+            Assert.AreEqual("осень", ds.FindMonthSeason(9));
+            Assert.AreEqual("осень", ds.FindMonthSeason(10));
+            Assert.AreEqual("осень", ds.FindMonthSeason(11));
 
             Assert.AreEqual("Invalid month", ds.FindMonthSeason(13));
         }

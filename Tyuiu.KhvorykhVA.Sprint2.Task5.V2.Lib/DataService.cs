@@ -23,7 +23,7 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task5.V2.Lib
                 case 9:
                 case 10:
                 case 11:
-                    return "Осень";
+                    return "осень";
                 default:
                     return "Invalid month";
             }
