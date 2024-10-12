@@ -13,7 +13,7 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task2.V6
             Console.WriteLine("* Тема: Оператор if - полная и короткая форма записи.                     *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
-            Console.WriteLine("* Выполнил: Хворых Виктор Александрович | ПКТБ-24-1                       *");
+            Console.WriteLine("* Выполнил: Хворых Виктор Александрович | ACOиУБ-24-1                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает целые значения с клавиатуры и   *");
