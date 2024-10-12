@@ -8,7 +8,7 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task3.V30.Lib
             double y;
             if (x > 1)
             {
-                y = Math.Pow((x + 1) / (x - 1), x);
+                y = Math.Pow((x + 1) / (x - 1), x) * 5;
                 Console.WriteLine($"Using case: x > 1, y = {y}");
             }
             else if (x == 0)
@@ -38,5 +38,6 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task3.V30.Lib
 
             return Math.Round(y, 3);
         }
+
     }
 }
