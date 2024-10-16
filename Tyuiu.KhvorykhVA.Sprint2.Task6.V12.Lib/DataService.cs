@@ -9,29 +9,14 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task6.V12.Lib
             {
                 if (m == 1)
                 {
-                    g -= 2024;
+                    g -= 1;
                     m = 12;
                     n = 31;
                 }
-
                 else
                 {
                     m -= 1;
-                    switch (m)
-                    {
-                        case 1: n = 31; break;
-                        case 2: n = 29; break;
-                        case 3: n = 31; break;
-                        case 4: n = 30; break;
-                        case 5: n = 31; break;
-                        case 6: n = 30; break;
-                        case 7: n = 31; break;
-                        case 8: n = 31; break;
-                        case 9: n = 30; break;
-                        case 10: n = 31; break;
-                        case 11: n = 30; break;
-                        default: n = 31; break;
-                    }
+                    n = DateTime.DaysInMonth(g, m);
                 }
             }
             else
@@ -39,8 +24,7 @@ namespace Tyuiu.KhvorykhVA.Sprint2.Task6.V12.Lib
                 n -= 1;
             }
 
-            return (n.ToString() + '.' + m.ToString() + '.' + g.ToString());
-
+            return n.ToString("D2") + "." + m.ToString("D2") + "." + g.ToString();
         }
     }
 }
